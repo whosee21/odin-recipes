@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
     <title>Odin Recipes</title>
+
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/pork-humba.html">Pork Humba</a></li>
-        <li><a href="recipes/chopsuey.html">Chopsuey</a></li>
-        <li><a href="recipes/pinoy-spaghetti.html">Pinoy Style Spaghetti</a></li>
+    <nav class="navbar">
+        <ul class="navitems">
+            <li class="logo"><a href="./index.html"><img src="./img/odinlogo.png" class="imglogo" width="100" height="100"></a></li>
+            <li class="odin"><h1>Odin Recipes</h1></li>
+            <li class="navmenu">
+                <ul class="navmenuitems">
+                    <li><a class="header-menu" id="active" href="./index.html">Home</a></li>
+                    <li><a class="header-menu" href="">About</a></li>
+                    <li><a class="header-menu" href="">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    
+    <ul class="recipes">
+        <li><a href="recipes/pork-humba.html"><span class="recipespan">Pork Humba</span></a></li>
+        <li><a href="recipes/chopsuey.html"><span class="recipespan">Chopsuey</span></a></li>
+        <li><a href="recipes/pinoy-spaghetti.html"><span class="recipespan">Pinoy Style Spaghetti</span></a></li>
     </ul>
 </body>
 </html>
